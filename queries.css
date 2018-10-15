@@ -1,0 +1,422 @@
+/* Everythong above 960px */
+
+@media only screen and (max-width: 1600px) {
+
+	.me {
+		height: 268px;
+	}
+
+	li img {
+    width: 50%;
+    height: 40%
+    }
+
+}
+
+
+/* === Big tablet to 1200px (width smaller than 841px the 960px row)===*/
+
+
+@media only screen and (max-width: 960px)  {
+
+
+/* HEADER */
+	/*h2 { font-size: 1rem; } */
+
+
+/* LEFT AND RIGHT COLUMNS */
+
+	.person {
+	margin-left: 37%;
+	}
+
+	.skills-and-software {
+	margin-left: 43px;
+	margin-top: 130px;
+	} */
+
+	.about-me {
+	width: 96%;
+	}
+
+	.about-me p {
+	font-size: 14px;
+	}
+
+	.personal-details {
+	margin-right: 43px;
+	}
+
+ 	/* #p-science {
+    margin-bottom: 32px;
+	 }  */
+
+	/*  #follo {
+ 	margin-bottom: 16px;
+	 } */
+
+	/* .photo {
+	margin-left: -15px;
+	} */
+
+	.me {
+	height: 240px;
+	}
+
+/* PROCENTY UMIEJĘTNOŚCI */
+li img {
+    width: 50%;
+    height: 40%
+    }
+
+}
+
+
+/* ========== Small tablet to big tablet: from 768 to 840px ========== */
+
+@media only screen and (max-width: 840px) {
+
+
+/* HEADER */
+	h2 { font-size: 1rem; }
+
+
+/* LEFT AND RIGHT COLUMNS */
+
+	.person {
+	margin-left: 39%;
+	}
+
+	.skills-and-software {
+	margin-left: 34px;
+	margin-top: 115px;
+	}
+
+	.about-me {
+	width: 92%;
+	}
+
+	
+
+	.personal-details {
+	margin-right: 34px;
+	}	
+
+ 	#p-science {
+    margin-bottom: 32px;
+	 }
+
+	 #follo {
+ 	margin-bottom: 16px;
+	 }
+
+	 .photo {
+	margin-left: -15px;
+	}
+
+	.me {
+	height: 240px;
+	}
+
+/* PROCENT UMIEJĘTNOŚCI */
+
+
+}
+
+
+/* ======= Small phones to small tablets: from 690px to 767px ======= */
+@media only screen and (max-width: 767px) {
+
+
+/* HEADER */
+
+h2 { font-size: 1rem; }
+h4 { font-size: 13px; }
+
+/* LEFT AND RIGHT COLUMNS */
+
+.skills-and-software {
+	margin-left: 34px;
+	margin-top: 122px;
+ 	}
+
+.person {
+	margin-left: 39%;
+} 	
+
+.personal-details {
+	margin-right: 34px;
+ 	}
+
+.about-me {
+	width: 92%;
+ 	}
+
+.photo {
+	margin-left: -15px;
+ 	}
+
+ #p-science {
+    margin-bottom: 32px;
+  	}
+
+ #follo {
+ 	margin-bottom: 16px;
+ 	}
+
+.me {
+		height: 228px;
+	}
+
+/* PROCENTY UMIEJĘTNOŚCI */
+.img-container {
+    width: 100%;
+    height: auto;
+    max-height: 240px;
+    /* overflow: hidden; */
+    margin: 0;
+    position: relative;
+    font-size: 14px;
+	}
+/*
+li img {
+    width: 30%;
+    height: 35%;
+	}
+
+}
+*/
+
+/* ======= Small phones to small tablets: from 480px to 690px  ======= */
+
+
+@media only screen and (max-width: 692px) {
+
+	.col-1-of-3 {
+		float: none;
+		margin-left: 0;
+	}
+
+	/* GENERAL */
+	.whole {
+		display: table;
+		margin-top: 70px;
+	}
+
+
+	p, h6 {
+    font-size: 14px;
+    color: #909395;
+	}
+
+	h1 { font-size: 2rem; }
+	h2 { font-size: 1rem; }
+	h4 { font-size: 16px; }
+	h5 { font-size: .9em; }
+
+	/* HEADER */
+
+	.person {
+    float: left;
+    display: inline;
+    margin-left: 0;
+    margin-top: 10px;
+    line-height: 50%;
+    text-align: center;
+	}
+
+	/* MOJE ZDJĘCIE */
+
+	header {
+		display: flex;
+		justify-content: center;
+	}
+
+	.photo {
+	left: auto; 
+    top: 100px;
+    margin: 0px;
+    display: block;
+	}
+
+	.me {
+		height: 228px;
+	}
+
+	/* LEFT AND RIGHT COLUMN */
+
+	.skills-and-software {
+    width: 92%;
+    margin: auto;
+    display: block;
+    text-align: center;
+ 	margin-top: 85px;
+ 	display: table-footer-group;
+	}
+
+	.skills-and-software, .personal-details {
+	float: none;
+	}
+
+	.personal-details {
+    width: 92%;
+    margin: auto;
+    text-align: center;
+    display: table-header-group;
+    /* margin-left: 24px; */
+	}
+
+	.about-me, .experience, .education {
+    float: none;
+    margin: auto;
+	}
+
+	.col-1-of-3 {
+    float: none;
+    margin: auto;
+    width: 92%;
+	}
+
+	.language:after {
+	display: none;
+    height: 1px;
+    width: 91%;
+    background-color: #a8abad;
+    content: " ";
+    margin: auto;
+	}
+
+	.period {
+		float: none;
+	}
+
+	.education:after {
+	display: block;
+    height: 1px;
+    width: 91%;
+    background-color: #a8abad;
+    content: " ";
+    margin: auto;
+	}
+
+	section:after { margin: auto; }
+
+	/* CONTACT */ 
+
+	.contact {
+    line-height: 25px;
+    color: #909395;
+    font-size: 15px;
+	}
+
+}
+
+
+/* ========= SMALL PHONES: from 0 to 480px ==========*/
+
+@media only screen and (max-width: 480px) {
+
+	.col-1-of-3 {
+		float: none;
+		margin-left: 0;
+	}
+
+	/* GENERAL */
+
+	p, h6 {
+    font-size: 14px;
+    color: #909395;
+	}
+
+	h1 { font-size: 2rem; }
+	h2 { font-size: 0.9rem; }
+	h4 { font-size: 16px; }
+	h5 { font-size: .9em; }
+
+	/* HEADER */
+
+	.person {
+    float: left;
+    display: inline;
+    margin-left: 0;
+    margin-top: 10px;
+    line-height: 50%;
+    text-align: center;
+	}
+
+
+
+	/* MOJE ZDJĘCIE */
+
+	header {
+		display: flex;
+		justify-content: center;
+	}
+
+	.photo {
+	left: auto; 
+    top: 100px;
+    display: block;
+	}
+
+	.me {
+		height: 228px;
+	}
+
+	/* LEFT AND RIGHT COLUMN */
+
+	.skills-and-software {
+    width: 92%;
+    margin: auto;
+    display: block;
+    text-align: center;
+ 	margin-top: 0;
+	}
+
+	.skills-and-software, .personal-details {
+	float: none;
+	}
+
+	.personal-details {
+    width: 92%;
+    margin: auto;
+    text-align: center;
+    /* margin-left: 24px; */
+	}
+
+	.about-me, .experience, .education {
+    float: none;
+    margin: auto;
+	}
+
+	.col-1-of-3 {
+    float: none;
+    margin: auto;
+    width: 92%;
+	}
+
+
+	section:after { margin: auto; }
+
+	/* CONTACT */ 
+
+	.contact {
+    line-height: 25px;
+    color: #909395;
+    font-size: 15px;
+	}
+
+/* PROCENT UMIEJĘTNOŚCI */
+
+	.img-container img {
+    width: 25%;
+    }
+
+/* FOOTER */
+
+footer p {
+	font-size: 13px;
+}
+
+}
+
