@@ -1,9 +1,9 @@
 /* Everythong above 960px */
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1100px) {
 
 	.me {
-		height: 268px;
+        max-width: 100%;
 	}
 
 	li img {
@@ -60,7 +60,7 @@
 	} */
 
 	.me {
-	height: 240px;
+	max-width: 95%;
 	}
 
 /* PROCENTY UMIEJĘTNOŚCI */
@@ -113,10 +113,12 @@ li img {
 	 .photo {
 	margin-left: -15px;
 	}
+/*
 
 	.me {
-	height: 240px;
+	max-width: 100%;
 	}
+*/
 
 /* PROCENT UMIEJĘTNOŚCI */
 
@@ -154,6 +156,7 @@ h4 { font-size: 13px; }
 
 .photo {
 	margin-left: -15px;
+	width: 31%;
  	}
 
  #p-science {
@@ -165,7 +168,7 @@ h4 { font-size: 13px; }
  	}
 
 .me {
-		height: 228px;
+		max-width: 100%;
 	}
 
 /* PROCENTY UMIEJĘTNOŚCI */
@@ -200,7 +203,7 @@ li img {
 	/* GENERAL */
 	.whole {
 		display: table;
-		margin-top: 70px;
+		margin-top: 50px;
 	}
 
 
@@ -215,6 +218,11 @@ li img {
 	h5 { font-size: .9em; }
 
 	/* HEADER */
+
+	.container-header {
+		position: relative;
+		max-width: 692px;
+	}
 
 	.person {
     float: left;
@@ -233,15 +241,29 @@ li img {
 	}
 
 	.photo {
+		left: 50%;
+	    top: 50%;
+	    margin: 0 auto;
+	    position: absolute;
+	    transform: translate(-50%, -13%);
+	    width: 31%;
+	}
+/*
+	.photo {
 	left: auto; 
     top: 100px;
     margin: 0px;
     display: block;
+    text-align: center;
 	}
+*/
+/*
 
 	.me {
-		height: 228px;
+		max-width: 100%;
 	}
+*/
+
 
 	/* LEFT AND RIGHT COLUMN */
 
@@ -354,13 +376,12 @@ li img {
 	}
 
 	.photo {
-	left: auto; 
-    top: 100px;
-    display: block;
+    width: 50%;
 	}
 
 	.me {
-		height: 228px;
+    max-width: 100%;
+        
 	}
 
 	/* LEFT AND RIGHT COLUMN */
@@ -420,3 +441,18 @@ footer p {
 
 }
 
+
+/* ========= SMALL PHONES: from 0 to 413px ==========*/
+
+    @media only screen and (max-width: 413px) {
+        
+	.me {
+        max-width: 100%;
+	}
+        
+    }
+    
+    
+    
+    
+    
